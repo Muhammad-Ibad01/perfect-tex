@@ -1,0 +1,15 @@
+{
+  "name": "perfect-tax-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sass --watch scss/main.scss assets/css/main.css --style=expanded",
+    "build": "sass scss/main.scss assets/css/main.css --style=compressed --no-source-map"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.8"
+  },
+  "devDependencies": {
+    "sass": "1.90.0"
+  }
+}

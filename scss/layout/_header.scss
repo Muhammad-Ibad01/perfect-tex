@@ -1,0 +1,5 @@
+.site-header { position: sticky; inset-block-start: 0; z-index: 1030; background: rgba(255,255,255,.92); border-bottom: 1px solid rgba(227,233,231,.8); backdrop-filter: blur(16px); }
+.navbar { min-height: 84px; }
+.navbar-brand img { width: 142px; height: 54px; object-fit: contain; }
+.nav-link { color: #35413f; font-size: .88rem; font-weight: 500; &:hover, &:focus { color: $color-primary; } }
+.navbar-toggler { border: 0; box-shadow: none !important; }

@@ -1,0 +1,2 @@
+.btn-brand { @include button-base; padding: .9rem 1.25rem; color: $color-white; background: $color-primary; border: 1px solid $color-primary; box-shadow: 0 10px 22px rgba(11,107,91,.2); &:hover { color: $color-white; background: $color-primary-dark; border-color: $color-primary-dark; transform: translateY(-2px); } }
+.btn-outline-brand { @include button-base; padding: .9rem 1.25rem; color: $color-ink; background: $color-white; border: 1px solid $color-border; &:hover { color: $color-primary; border-color: $color-primary; transform: translateY(-2px); } }

@@ -1,0 +1,5 @@
+@mixin container-shell { width: min(100% - 2rem, 1200px); margin-inline: auto; }
+@mixin button-base { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; border-radius: .8rem; font-weight: 600; transition: .25s ease; }
+@mixin respond($breakpoint) { @if $breakpoint == md { @media (min-width: 768px) { @content; } } @else if $breakpoint == lg { @media (min-width: 992px) { @content; } } @else if $breakpoint == xl { @media (min-width: 1200px) { @content; } } }
+@mixin flex-center { display: flex; align-items: center; justify-content: center; }
+@mixin auto-grid($min: 250px) { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, $min), 1fr)); }
